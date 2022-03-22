@@ -1,7 +1,8 @@
 ---
-- hosts: all
+- name: test
+  hosts: all
   remote_user: root
-  task:
+  tasks:
    - name: check the date on server
      command: date
      tags: date
