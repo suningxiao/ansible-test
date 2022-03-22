@@ -6,7 +6,7 @@
    - name: check the date on server
      command: date
      tags: date
-     when: date == 'yes'
+     when: date is defined and date == 'yes'
    - name: check the ip addr
      command: ip addr
      tags: ip
