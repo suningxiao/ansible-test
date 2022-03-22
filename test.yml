@@ -4,5 +4,7 @@
   task:
    - name: check the date on server
      command: date
+     tags: date
    - name: check the ip addr
      command: ip addr
+     tags: ip
